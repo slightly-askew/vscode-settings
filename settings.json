@@ -1,0 +1,48 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.fontSize": 17,
+  "editor.fontFamily": "FiraCode-Light, Input Sans Narrow,  Monaco, Droid Sans Mono, DejaVu Sans",
+  "editor.fontWeight": "400",
+  "editor.lineHeight": 26,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "boundary",
+  "editor.renderControlCharacters": true,
+  "editor.renderIndentGuides": true,
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.fontLigatures": true,
+  "editor.dragAndDrop": true,
+  "files.autoSave": "onFocusChange",
+  "window.zoomLevel": -1,
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.projectDetection.autoReload": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "javascript.validate.enable": false,
+  "editor.formatOnSave": true,
+  "prettier.parser": "flow",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "xml": {
+      "attr_quotes": "single"
+    }
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/web/node_modules": true,
+    "**/web/build": true, // will change frequently by build command
+    "**/admin/node_modules": true
+  },
+  "vscode_custom_css.policy": true,
+  "vscode_custom_css.imports": [
+    "file:///Users/oli/vscode-styles/styles.css" // styles.css in this gist.
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always"
+}
