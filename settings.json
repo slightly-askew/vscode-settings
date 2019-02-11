@@ -42,7 +42,7 @@
   },
   "vscode_custom_css.policy": true,
   "vscode_custom_css.imports": [
-    "file:///Users/oli/vscode-styles/styles.css" // styles.css in this gist.
+    "file:///Users/oli/Projects/vscode-styles/styles.css" // styles.css in this gist.
   ],
   "javascript.updateImportsOnFileMove.enabled": "always"
 }
